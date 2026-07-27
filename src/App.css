@@ -539,15 +539,39 @@ footer {
 }
 
 .detail {
-  padding: 0 0.75rem 0.9rem;
+  padding: 0 0 0.9rem;
   border-top: 1px solid var(--chrome-line);
   animation: rise 0.3s ease both;
 }
 
-.why {
-  margin: 0.7rem 0 0;
+.detail-photo {
+  margin: 0;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  background: var(--blush);
+}
+
+.detail-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  filter: saturate(0.94) contrast(1.02);
+}
+
+.detail .why {
+  margin: 0.85rem 0.75rem 0;
   font-size: 0.95rem;
   line-height: 1.4;
+}
+
+.detail .detail-tags,
+.detail .subs-box,
+.detail .steps,
+.detail .tip,
+.detail .source-inline {
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
 }
 
 .detail-tags {

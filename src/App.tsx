@@ -244,16 +244,6 @@ export default function App() {
                 {results.map((recipe) => {
                   const open = active?.id === recipe.id
                   const adapted = isAdaptation(recipe)
-                  const photoId = (() => {
-                    if (!recipe.id.startsWith('adapt-')) return recipe.id
-                    let base = recipe.id.slice('adapt-'.length)
-                    for (const id of [...selected].reverse()) {
-                      if (base.endsWith(`-${id}`)) {
-                        base = base.slice(0, -(id.length + 1))
-                      }
-                    }
-                    return base || recipe.id
-                  })()
                   return (
                     <li
                       key={recipe.id}
@@ -266,8 +256,8 @@ export default function App() {
                       >
                         <div className="photo-frame">
                           <img
-                            src={recipeImage(photoId)}
-                            alt=""
+                            src={recipeImage(recipe.id)}
+                            alt={recipe.name}
                             loading="lazy"
                           />
                           <div className="photo-wash" aria-hidden />
@@ -319,6 +309,10 @@ function RecipeDetail({
 
   return (
     <article className="detail">
+      <div className="detail-photo">
+        <img src={recipeImage(recipe.id)} alt={recipe.name} />
+      </div>
+
       <p className="why">{recipe.whyItWorks}</p>
 
       <div className="detail-tags">
