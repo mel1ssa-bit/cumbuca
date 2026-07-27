@@ -227,7 +227,12 @@ export default function App() {
             <section className="ideias-head">
               <p className="hero-kicker">vamos cozinhar</p>
               <h1>ideias pra você</h1>
-              <p>{selectedNames.join(' · ')}</p>
+              <p>
+                {selectedNames.join(' · ')}
+                {selected.length >= 3
+                  ? ' · combo maior = lista mais curta'
+                  : ''}
+              </p>
             </section>
 
             {results.length === 0 ? (

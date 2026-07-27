@@ -74,6 +74,30 @@ export const recipeImages: Record<string, string> = {
     'https://images.unsplash.com/photo-1547592166-23ac45744acd?w=800&q=80&auto=format&fit=crop',
   'chicken-stir-carrot':
     'https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=800&q=80&auto=format&fit=crop',
+  'egg-rice-viral':
+    'https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=800&q=80&auto=format&fit=crop',
+  'egg-in-hole':
+    'https://images.unsplash.com/photo-1525351484163-7529414344d8?w=800&q=80&auto=format&fit=crop',
+  'tomato-egg':
+    'https://images.unsplash.com/photo-1482049016688-2d3e1b311543?w=800&q=80&auto=format&fit=crop',
+  'pf-simples':
+    'https://images.unsplash.com/photo-1546833998-877b37c2e5c6?w=800&q=80&auto=format&fit=crop',
+  'miojo-ovo':
+    'https://images.unsplash.com/photo-1563379926898-05f4575a45d8?w=800&q=80&auto=format&fit=crop',
+  'cheese-toast':
+    'https://images.unsplash.com/photo-1573140401552-3fab57e1da1c?w=800&q=80&auto=format&fit=crop',
+  'presunto-queijo':
+    'https://images.unsplash.com/photo-1528736235302-52922df5c122?w=800&q=80&auto=format&fit=crop',
+  'salsicha-ovo':
+    'https://images.unsplash.com/photo-1525351484163-7529414344d8?w=800&q=80&auto=format&fit=crop',
+  'banana-leite':
+    'https://images.unsplash.com/photo-1553530666-ba11a7da3888?w=800&q=80&auto=format&fit=crop',
+  'batata-micro':
+    'https://images.unsplash.com/photo-1518013431117-eb782616e93b?w=800&q=80&auto=format&fit=crop',
+  'atum-pao':
+    'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80&auto=format&fit=crop',
+  'cuscuz-manteiga':
+    'https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=800&q=80&auto=format&fit=crop',
 }
 
 export function recipeImage(id: string): string {
