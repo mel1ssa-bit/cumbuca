@@ -1,0 +1,84 @@
+/** fotos de comida (Unsplash) — tom quente que combina com o rosa salmão */
+export const recipeImages: Record<string, string> = {
+  'hazan-tomato':
+    'https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=800&q=80&auto=format&fit=crop',
+  carbonara:
+    'https://images.unsplash.com/photo-1612874742237-6526221588e3?w=800&q=80&auto=format&fit=crop',
+  'aglio-olio':
+    'https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800&q=80&auto=format&fit=crop',
+  'tortilla-espanola':
+    'https://images.unsplash.com/photo-1604908177522-440442e6684b?w=800&q=80&auto=format&fit=crop',
+  shakshuka:
+    'https://images.unsplash.com/photo-1590412200255-2b8612c5a4c0?w=800&q=80&auto=format&fit=crop',
+  'french-toast':
+    'https://images.unsplash.com/photo-1484723091739-30a097e8f929?w=800&q=80&auto=format&fit=crop',
+  'nigella-banana':
+    'https://images.unsplash.com/photo-1506084868230-bb9d95c24759?w=800&q=80&auto=format&fit=crop',
+  'jamie-chicken-lemon':
+    'https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=800&q=80&auto=format&fit=crop',
+  quesadilla:
+    'https://images.unsplash.com/photo-1618040996337-56904b7850b9?w=800&q=80&auto=format&fit=crop',
+  caprese:
+    'https://images.unsplash.com/photo-1608897013039-887f21d8c804?w=800&q=80&auto=format&fit=crop',
+  'jamie-frittata':
+    'https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=800&q=80&auto=format&fit=crop',
+  'tuna-pasta':
+    'https://images.unsplash.com/photo-1563379926898-05f4575a45d8?w=800&q=80&auto=format&fit=crop',
+  'honey-mustard-chicken':
+    'https://images.unsplash.com/photo-1532550907401-a500c9a57435?w=800&q=80&auto=format&fit=crop',
+  'broccoli-cheese':
+    'https://images.unsplash.com/photo-1628773822503-930a7eaecf80?w=800&q=80&auto=format&fit=crop',
+  'pepin-omelette':
+    'https://images.unsplash.com/photo-1525351484163-7529414344d8?w=800&q=80&auto=format&fit=crop',
+  'carrot-soup':
+    'https://images.unsplash.com/photo-1547592166-23ac45744acd?w=800&q=80&auto=format&fit=crop',
+  'zucchini-pasta':
+    'https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=800&q=80&auto=format&fit=crop',
+  'rice-egg':
+    'https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=800&q=80&auto=format&fit=crop',
+  'feijao-tropeiro-light':
+    'https://images.unsplash.com/photo-1546833998-877b37c2e5c6?w=800&q=80&auto=format&fit=crop',
+  'potato-roast':
+    'https://images.unsplash.com/photo-1518013431117-eb782616e93b?w=800&q=80&auto=format&fit=crop',
+  'yogurt-cucumber-ish':
+    'https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80&auto=format&fit=crop',
+  'tuna-salad':
+    'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80&auto=format&fit=crop',
+  'garlic-butter-bread':
+    'https://images.unsplash.com/photo-1573140401552-3fab57e1da1c?w=800&q=80&auto=format&fit=crop',
+  'tofu-stirfry':
+    'https://images.unsplash.com/photo-1546069901-d5bfd2cbfb1f?w=800&q=80&auto=format&fit=crop',
+  'carne-molho':
+    'https://images.unsplash.com/photo-1551892374-ecf8754cf8b0?w=800&q=80&auto=format&fit=crop',
+  'avocado-toast':
+    'https://images.unsplash.com/photo-1541519227354-08fa5d50c44d?w=800&q=80&auto=format&fit=crop',
+  'cuscuz-nordestino':
+    'https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=800&q=80&auto=format&fit=crop',
+  crepioca:
+    'https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=800&q=80&auto=format&fit=crop',
+  'chickpea-salad':
+    'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&q=80&auto=format&fit=crop',
+  'sausage-pepper':
+    'https://images.unsplash.com/photo-1529042410759-befb1204b468?w=800&q=80&auto=format&fit=crop',
+  'miso-ish-shoyu-egg':
+    'https://images.unsplash.com/photo-1482049016688-2d3e1b311543?w=800&q=80&auto=format&fit=crop',
+  'ratatouille-easy':
+    'https://images.unsplash.com/photo-1572453800999-e8d2d1589b7c?w=800&q=80&auto=format&fit=crop',
+  'apple-cinnamon-oats':
+    'https://images.unsplash.com/photo-1517673132405-a56a62b18caf?w=800&q=80&auto=format&fit=crop',
+  'chicken-casserole':
+    'https://images.unsplash.com/photo-1604908177522-440442e6684b?w=800&q=80&auto=format&fit=crop',
+  'chicken-traybake':
+    'https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=800&q=80&auto=format&fit=crop',
+  'chicken-carrot-soup':
+    'https://images.unsplash.com/photo-1547592166-23ac45744acd?w=800&q=80&auto=format&fit=crop',
+  'chicken-stir-carrot':
+    'https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=800&q=80&auto=format&fit=crop',
+}
+
+export function recipeImage(id: string): string {
+  return (
+    recipeImages[id] ??
+    'https://images.unsplash.com/photo-1495521821757-a1efb6729352?w=800&q=80&auto=format&fit=crop'
+  )
+}

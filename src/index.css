@@ -1,0 +1,63 @@
+:root {
+  --salmon: #ff8b78;
+  --salmon-deep: #e86a5c;
+  --salmon-soft: #ffb3a6;
+  --blush: #ffd6ce;
+  --cream: #fff4f0;
+  --ink: #2a1714;
+  --ink-soft: #5c3a34;
+  --chrome: #f7ebe7;
+  --chrome-line: rgba(42, 23, 20, 0.14);
+  --glow: rgba(255, 139, 120, 0.45);
+  --ok: #3d8b7a;
+  --font-display: 'Chakra Petch', sans-serif;
+  --font-body: 'Quicksand', sans-serif;
+  color: var(--ink);
+  background: var(--cream);
+  font-family: var(--font-body);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background:
+    radial-gradient(800px 420px at 8% -5%, rgba(255, 139, 120, 0.28), transparent 55%),
+    radial-gradient(700px 380px at 100% 0%, rgba(255, 179, 166, 0.28), transparent 50%),
+    linear-gradient(165deg, #fff7f4 0%, #ffe8e0 55%, #ffd8cc 100%);
+  color: var(--ink);
+}
+
+#root {
+  min-height: 100vh;
+}
+
+button,
+a {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: var(--salmon-deep);
+}
+
+img {
+  max-width: 100%;
+}
